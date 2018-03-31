@@ -1,0 +1,19 @@
+{
+  "name": "scavenger",
+  "version": "1.0.0",
+  "description": "revitalizing forgotten gaming communities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boybutcher/scavenger.git"
+  },
+  "author": "Hasib Ziai & Bryan Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boybutcher/scavenger/issues"
+  },
+  "homepage": "https://github.com/boybutcher/scavenger#readme"
+}
