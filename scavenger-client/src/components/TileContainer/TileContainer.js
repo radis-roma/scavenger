@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import GameTile from '../GameTile/GameTile.js';
 import './TileContainer.css';
 
 class TileContainer extends Component {
@@ -6,6 +7,7 @@ class TileContainer extends Component {
     return (
       <div>
         TileContainer
+        <GameTile />
       </div>
     )
   }
