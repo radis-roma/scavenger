@@ -3,7 +3,7 @@ revitalizing forgotten gaming communities
 
 ## getting started
 ```
-git clone https://github.com/$(USERNAME)/scavenger.git
+git clone https://github.com/$(username)/scavenger.git
 
 cd scavenger/
 npm install
