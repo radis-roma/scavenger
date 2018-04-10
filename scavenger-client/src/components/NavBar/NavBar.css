@@ -1,6 +1,7 @@
 .nav-bar {
   display: flex;
   flex-direction: row;
+  margin-bottom: 1em;
 }
 
 .home-button {
