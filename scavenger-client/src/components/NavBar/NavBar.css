@@ -1,3 +1,15 @@
 .nav-bar {
-  
+  display: flex;
+  flex-direction: row;
+}
+
+.home-button {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.nav-button {
+  align-self: flex-end;
+  padding-left: 2em;
 }

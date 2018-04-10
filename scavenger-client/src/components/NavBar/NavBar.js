@@ -5,10 +5,10 @@ class NavBar extends Component {
   render() {
     return (
       <div className='nav-bar'>
-        <h1 className='home-button'>scavenger</h1>
-        <div>browse</div>
-        <div>events</div>
-        <div>host</div>
+        <div className='home-button'>scavenger</div>
+        <div className='nav-button'>browse</div>
+        <div className='nav-button'>events</div>
+        <div className='nav-button'>host</div>
       </div>
     )
   }
