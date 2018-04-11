@@ -48,7 +48,9 @@ class TileContainer extends Component {
     } = this.state;
 
     return (
-      <div>
+      <div 
+        className='tile-container'
+      >
         {
           gameCollection.map((gameData, i) => {
             return (
