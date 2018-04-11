@@ -43,10 +43,22 @@ class TileContainer extends Component {
   }
 
   render() {
+    const {
+      gameCollection
+    } = this.state;
+
     return (
       <div>
-        TileContainer
-        <GameTile />
+        {
+          gameCollection.map((gameData, i) => {
+            return (
+              <GameTile 
+                key={i}
+                gameData={gameData}
+              />
+            )
+          })
+        }
       </div>
     )
   }
