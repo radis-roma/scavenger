@@ -44,7 +44,7 @@ class TileContainer extends Component {
 
   render() {
     const {
-      gameCollection
+      gameCollection,
     } = this.state;
 
     return (
