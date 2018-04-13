@@ -8,7 +8,7 @@ class NavBar extends Component {
   }
 
   navClickHandler() {
-    console.log('button clicked!');
+    return 'button clicked!';
   }
 
   render() {
