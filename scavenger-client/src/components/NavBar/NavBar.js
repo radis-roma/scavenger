@@ -1,43 +1,28 @@
 import React, { Component } from 'react';
+import NavButton from '../NavButton/NavButton.js';
 import './NavBar.css';
 
 class NavBar extends Component {
-  constructor(props) {
-    super(props);
-    this.navClickHandler = this.navClickHandler.bind(this);
-  }
-
-  navClickHandler() {
-    return 'button clicked!';
-  }
-
   render() {
+    const buttons = ['browse', 'events', 'host'];
+
     return (
       <div className='nav-bar'>
         <div 
           className='home-button'
-          onClick={this.navClickHandler}
         >
           scavenger
         </div>
-        <div 
-          className='nav-button'
-          onClick={this.navClickHandler}
-        >
-          browse
-        </div>
-        <div 
-          className='nav-button'
-          onClick={this.navClickHandler}
-        >
-          events
-        </div>
-        <div 
-          className='nav-button'
-          onClick={this.navClickHandler}
-        >
-          host
-        </div>
+        {
+          buttons.map((name, i) => {
+            return (
+              <NavButton 
+                key={i}
+                type={name}
+              />
+            )
+          })
+        }
       </div>
     )
   }

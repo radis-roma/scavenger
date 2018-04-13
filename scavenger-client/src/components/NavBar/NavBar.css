@@ -10,9 +10,3 @@
   font-size: 2em;
   cursor: pointer;
 }
-
-.nav-button {
-  align-self: flex-end;
-  margin-left: 2em;
-  cursor: pointer;
-}
