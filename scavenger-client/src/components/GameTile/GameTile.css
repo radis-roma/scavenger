@@ -1,0 +1,17 @@
+.game-tile:hover {
+  cursor: pointer;
+}
+
+.game-tile {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  width: 10em;
+  padding: 5px;
+  border: 1px solid black;
+  margin: .2em;
+}
+
+.title {
+  font-weight: bold;
+}

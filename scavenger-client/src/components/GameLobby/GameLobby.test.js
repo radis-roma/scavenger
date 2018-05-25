@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.js';
+import GameLobby from './GameLobby.js';
 
-it('renders without crashing', () => {
+it ('renders without crashing', () => {
   const div = document.createElement('div');
-  
-  ReactDOM.render(<App />, div);
+
+  ReactDOM.render(<GameLobby />, div);
   ReactDOM.unmountComponentAtNode(div);
-});
+})

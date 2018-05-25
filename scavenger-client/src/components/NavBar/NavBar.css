@@ -1,0 +1,12 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+
+.home-button {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 2em;
+  cursor: pointer;
+}
